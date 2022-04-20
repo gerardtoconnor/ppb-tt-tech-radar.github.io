@@ -25,12 +25,12 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Flutter Tech Radar — 2022",
+  title: "PPB Trading Tribe Tech Radar — 2022",
   quadrants: [
-    { name: "Languages" },
+    { name: "Languages & Patterns" },
     { name: "Infrastructure" },
-    { name: "Datastores" },
-    { name: "Data Management" },
+    { name: "Datastores & Persistance" },
+    { name: "Data Management & Streaming" },
   ],
   rings: [
     { name: "ADOPT", color: "#93c47d" },
@@ -353,7 +353,7 @@ radar_visualization({
       },
       {
         "quadrant": 1,
-        "ring": 0,
+        "ring": 1,
         "label": "Nginx",
         "active": true,
         "moved": 0
@@ -422,6 +422,13 @@ radar_visualization({
         "ring": 1,
         "label": "GraphQL",
         "link": "https://engineering.zalando.com/tags/graphql.html",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 1,
+        "label": "GRPC",
         "active": true,
         "moved": 0
       },
@@ -514,6 +521,28 @@ radar_visualization({
       {
         "quadrant": 0,
         "ring": 0,
+        "label": "Event Sourcing",
+        "link": "https://engineering.zalando.com/tags/swift.html",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Hexagonal Arch",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "DDD",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
         "label": "TypeScript",
         "link": "https://engineering.zalando.com/tags/typescript.html",
         "active": true,
@@ -558,6 +587,21 @@ radar_visualization({
         "quadrant": 3,
         "ring": 0,
         "label": "Kafka",
+        "link": "https://engineering.zalando.com/tags/apache-kafka.html",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Kafka Streams",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "Pulsar",
         "link": "https://engineering.zalando.com/tags/apache-kafka.html",
         "active": true,
         "moved": 0
